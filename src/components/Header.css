@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Xanh+Mono&display=swap');
+
+
+/* Área de style BoxhRoot*/
+.boxRoot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: url(../images/backgroundHeader.png); 
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+}
+
+/* Área de style boxheade1*/
+.boxHeader1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier Prime', monospace;
+  }
+
+  .boxHeader1 img{
+    width: 125px;
+    height: 125px;
+    position: relative;
+    top: 5px;
+    left: 25px;
+
+  }
+
+  .boxHeader1 h1{
+    position: relative;
+    top: 17px;
+    left: 30px;
+    font-family: 'Cutive Mono', monospace;
+  }
+
+
+  /* Área de style Boxheader2*/
+  .boxHeader2{
+    display: flex;
+    
+  }
+
+  .boxHeader2 p{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 15px;
+    font-family: 'Courier Prime', monospace;
+}
